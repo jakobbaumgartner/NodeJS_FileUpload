@@ -1,0 +1,15 @@
+-> we can put into form html element file picker
+	-> enctype="multipart/form-data" form argument
+
+-> multer
+	-> parser, that parses file requests or mixed
+		(body-parser can only parse text)
+
+multer.diskstorage({
+	...
+})
+
+Files should not be stored in a database, 
+but in a filesystem. Save path and some info.
+
+req.file objekt we are using
